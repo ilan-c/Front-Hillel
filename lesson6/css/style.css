@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "cera-pro";
+    src: url("/lesson5/fonts/cerapro-regular.woff") format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "cera-pro";
+    src: url("/lesson5/fonts/cerapro-bold.woff") format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "cera-pro";
+    src: url("/lesson5/fonts/cerapro-medium.woff") format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "cera-pro";
+    src: url("/lesson5/fonts/CeraPro-Black.woff") format('woff');
+    font-weight: 900;
+}
+
+body{
+    font-family: Cera-Pro;
+}
+.navbar-container {
+    width: 1200px;
+    font-size: 0;
+    margin: 30px auto 12px auto;
+    height: 53px;
+    border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+}
+
+.login-link {
+    width: 100px;
+    height: 35px;
+    background-color: #46A358;
+    border-radius: 6px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.login-link span {
+    font-weight: 500;
+    color: white;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.login-link img {
+    margin-top: 7px;
+    margin-left: 17px;
+    color: white
+}
+
+.logo {
+    font-size: 10px;
+    display: inline-block;
+}
+
+.navigation,
+.navigation li {
+    display: inline-block;
+}
+
+.navigation li {
+    padding-bottom: 22px;
+}
+
+.navigation li a {
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.11px;
+}
+
+.navigation li.active {
+    border-bottom: 3px solid #46A358;
+}
+
+.navigation li.active a {
+    font-weight: 700;
+    color: black;
+}
+
+.navigation li+li {
+    margin-left: 50px;
+}
+
+.navigation {
+    width: 950px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.container {
+    width: 1200px;
+    font-size: 0;
+    background-color: rgba(245, 245, 245, 0.5);
+    margin: 0 auto;
+}
+
+.banner-box{
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 40px;
+    width: 650px;
+}
+
+.container img{
+    display: inline-block;
+}
+.banner-box h2{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: rgba(61, 61, 61, 1);
+    padding-top: 68px;
+}
+.banner-box .target-word{
+    font-weight: 900;
+    color: rgba(61, 61, 61, 1);
+    line-height: 70px;
+    font-size: 70px;
+    padding-top: 7px;
+}
+.banner-box span{
+    color: #46A358;
+}
+
+.banner-box .description{
+    color: rgba(114, 114, 114, 1);
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 24px;
+    padding-top: 5px;
+}
+
+.banner-box button{
+    margin-top: 44px;
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #46A358;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+    border: none;
+}
