@@ -1,0 +1,230 @@
+@import url(../../lesson6/css/reset.css);
+
+@font-face {
+    font-family: 'cera-pro';
+    src: url('../../lesson5/fonts/cerapro-regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cera-pro';
+    src: url('../../lesson5/fonts/cerapro-medium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cera-pro';
+    src: url('../../lesson5/fonts/cerapro-bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cera-pro';
+    src: url('../../lesson5/fonts/CeraPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-display: swap;
+}
+
+a {
+    color: #3D3D3D;
+}
+
+body {
+    color: #3D3D3D;
+    font-family: 'cera-pro';
+}
+
+/* !SITE */
+/* header */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 30px 0 12px;
+}
+
+.header-container {
+    font-size: 0;
+    border-bottom: 1px solid rgba(70, 163, 88, .1);
+}
+
+.header-logo,
+.header-list,
+.header-list li,
+.header-btn {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.header-logo {
+    width: 150px;
+}
+
+.header-list {
+    margin-top: 10px;
+    width: 950px;
+    text-align: center;
+}
+
+.header-list li {
+    padding-bottom: 18px;
+}
+
+.header-list li.active {
+    font-weight: 900;
+    border-bottom: 2px solid #46A358;
+}
+
+.header-list li+li {
+    margin-left: 50px;
+}
+
+.header-list li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header-btn {
+    width: 100px;
+    padding: 8px 17px 7px;
+    background: #46A358;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.header-btn img {
+    vertical-align: middle;
+    margin-right: 1px;
+}
+
+.color-green {
+    color: #46A358;
+}
+
+
+/* ASIDE AND MAIN  */
+/* !PLUGIN eCSStractor for VSCode */
+.page {
+    background: orange;
+}
+
+.aside {
+    background: #FBFBFB;
+    width: 310px;
+    float: left;
+    padding: 14px 18px 0;
+    font-weight: 400;
+    color: #3D3D3D;
+
+}
+
+.aside h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+
+}
+
+.aside-list {
+    min-height: 774px;
+    padding: 7px 0 0 12px;
+}
+
+.aside-list li {
+    margin-top: 15px;
+}
+
+.aside-img {
+    margin: 0 -18px;
+}
+
+.main {
+    width: 840px;
+    float: right;
+}
+
+.products {}
+
+.products-sort {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.products-sort-list li {
+    float: left;
+}
+
+.products-sort-list li+li {
+    padding-left: 35px;
+}
+
+.products-filter {
+    float: right;
+
+}
+
+.products-cards {
+    margin: 0 -15px;
+}
+
+.products-card {
+    width: 33.333%;
+    float: left;
+    padding: 0 15px;
+}
+
+.products-card {
+    padding-bottom: 70px;
+}
+
+.products-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 0 20px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.price {
+    color: #46A358;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.pagination {
+    float: right;
+    margin-bottom: 80px;
+}
+
+.pagination li {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    border: 0.5px solid #3d3d3d1c;
+    display: inline-block;
+}
+
+.pagination a {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.pagination li a + a{
+    margin-left: 5px;
+}
+.active-page, .active-page a{
+    background-color: #46A358;
+    color: #fff;
+}
